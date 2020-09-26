@@ -1,0 +1,4 @@
+https://sandipanweb.wordpress.com/2017/03/16/using-uninformed-informed-search-algorithms-to-solve-8-puzzle-n-puzzle/
+Greedy search：需要一个数据结构保存当前搜索时产生的所有puzzle，然后每次从中选择距离目的状态最短距离的状态，进行搜索；
+A* search:需要保存当前状态所走的距离和距离终止状态的距离，以及搜索过程中搜索到但是没有访问的状态及距离，把他放入数据结构中存储，
+每次做插入排序选择当前所走距离和目标距离之和最小的状态。
